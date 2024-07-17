@@ -4,14 +4,14 @@ plugins {
     id 'maven-publish'
 }
 
-group='com.github.michaellee123'
-version = '1.8.14'
+group='com.github.litchicoder'
+version = '2.7.17'
 
 android {
     compileSdk 34
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 23
         targetSdkVersion 34
     }
 
@@ -36,9 +36,9 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.michaellee123'
+                groupId = 'com.github.litchicoder'
                 artifactId = 'live-event-bus-x'
-                version = '1.8.14'
+                version = '2.7.17'
             }
         }
     }

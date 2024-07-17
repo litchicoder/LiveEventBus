@@ -2,7 +2,7 @@
 
 适配Android14
 
-https://developer.android.google.cn/about/versions/13/features?hl=zh-cn#runtime-receivers
+https://developer.android.com/about/versions/14/behavior-changes-14?hl=zh-cn#runtime-receivers-exported
 
 ```groovy
 repositories {
