@@ -1,5 +1,6 @@
 # LiveEventBus
 
+[![](https://jitpack.io/v/litchicoder/LiveEventBus.svg)](https://jitpack.io/#litchicoder/LiveEventBus)
 适配Android14
 
 https://developer.android.com/about/versions/14/behavior-changes-14?hl=zh-cn#runtime-receivers-exported
